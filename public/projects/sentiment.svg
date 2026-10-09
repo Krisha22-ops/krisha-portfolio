@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgSent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#182424" />
+      <stop offset="50%" stop-color="#243838" />
+      <stop offset="100%" stop-color="#101919" />
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="750" fill="url(#bgSent)" />
+
+  <!-- Header -->
+  <rect x="90" y="80" width="410" height="44" rx="22" fill="#87957a" fill-opacity="0.25" stroke="#87957a" stroke-width="1.5"/>
+  <text x="115" y="108" font-family="sans-serif" font-size="15" font-weight="bold" fill="#f7f4ec" letter-spacing="2">SOCIAL MEDIA SENTIMENT ANALYSIS</text>
+
+  <!-- Sentiment Meter Arc -->
+  <path d="M 350 520 A 260 260 0 0 1 850 520" fill="none" stroke="#ffffff" stroke-opacity="0.1" stroke-width="30" stroke-linecap="round"/>
+  <path d="M 350 520 A 260 260 0 0 1 780 320" fill="none" stroke="#87957a" stroke-width="30" stroke-linecap="round"/>
+
+  <!-- Needle -->
+  <line x1="600" y1="520" x2="740" y2="340" stroke="#c77b5a" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="600" cy="520" r="22" fill="#f7f4ec" stroke="#c77b5a" stroke-width="6"/>
+
+  <!-- Polarity Tags -->
+  <rect x="250" y="440" width="120" height="40" rx="20" fill="#c77b5a" fill-opacity="0.3" />
+  <text x="275" y="465" font-family="sans-serif" font-size="13" font-weight="bold" fill="#c77b5a">Negative</text>
+
+  <rect x="540" y="200" width="120" height="40" rx="20" fill="#87957a" fill-opacity="0.3" />
+  <text x="570" y="225" font-family="sans-serif" font-size="13" font-weight="bold" fill="#87957a">Positive</text>
+
+  <rect x="830" y="440" width="120" height="40" rx="20" fill="#e6b89c" fill-opacity="0.3" />
+  <text x="860" y="465" font-family="sans-serif" font-size="13" font-weight="bold" fill="#e6b89c">Neutral</text>
+
+  <!-- Metric Box -->
+  <rect x="820" y="100" width="250" height="90" rx="16" fill="#101919" fill-opacity="0.9" stroke="#87957a" stroke-width="1.5" />
+  <text x="845" y="135" font-family="sans-serif" font-size="12" fill="#77746d" letter-spacing="1">MODEL ACCURACY</text>
+  <text x="845" y="170" font-family="serif" font-size="30" font-weight="bold" fill="#87957a">89% F1-Score</text>
+</svg>

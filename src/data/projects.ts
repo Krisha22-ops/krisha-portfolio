@@ -41,8 +41,8 @@ export const projects: Project[] = [
     year: "2026",
     technologies: ["PostgreSQL", "Python", "Power BI", "DAX"],
     featured: true,
-    image: "/projects/fundiq.png",
-    github: "https://github.com",
+    image: "/projects/fundiq.svg",
+    github: "https://github.com/Krisha22-ops",
     liveDemo: "https://powerbi.microsoft.com"
   },
   {
@@ -70,8 +70,8 @@ export const projects: Project[] = [
     year: "2026",
     technologies: ["PostgreSQL", "SQL", "Power BI", "Python", "Pandas"],
     featured: true,
-    image: "/projects/olist.png",
-    github: "https://github.com"
+    image: "/projects/olist.svg",
+    github: "https://github.com/Krisha22-ops"
   },
   {
     slug: "trialsense",
@@ -97,8 +97,8 @@ export const projects: Project[] = [
     year: "2026",
     technologies: ["Python", "Neo4j", "Qdrant", "NLP", "FastAPI"],
     featured: true,
-    image: "/projects/trialsense.png",
-    github: "https://github.com"
+    image: "/projects/trialsense.svg",
+    github: "https://github.com/Krisha22-ops"
   },
   {
     slug: "wikipedia-edit-wars",
@@ -123,8 +123,8 @@ export const projects: Project[] = [
     year: "2026",
     technologies: ["Power BI", "Python", "Data Analysis", "XML Parser"],
     featured: false,
-    image: "/projects/wikipedia.png",
-    github: "https://github.com"
+    image: "/projects/wikipedia.svg",
+    github: "https://github.com/Krisha22-ops"
   },
   {
     slug: "social-media-sentiment",
@@ -149,8 +149,8 @@ export const projects: Project[] = [
     year: "2026",
     technologies: ["Python", "NLTK", "TextBlob", "Power BI", "Transformers"],
     featured: false,
-    image: "/projects/sentiment.png",
-    github: "https://github.com"
+    image: "/projects/sentiment.svg",
+    github: "https://github.com/Krisha22-ops"
   },
   {
     slug: "olist-neo4j",
@@ -175,7 +175,7 @@ export const projects: Project[] = [
     year: "2026",
     technologies: ["PostgreSQL", "Neo4j", "SQL", "Cypher", "Python"],
     featured: false,
-    image: "/projects/neo4j.png",
-    github: "https://github.com"
+    image: "/projects/neo4j.svg",
+    github: "https://github.com/Krisha22-ops"
   }
 ];

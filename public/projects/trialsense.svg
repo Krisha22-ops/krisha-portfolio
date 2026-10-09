@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgTrial" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#191d24" />
+      <stop offset="50%" stop-color="#242c38" />
+      <stop offset="100%" stop-color="#111419" />
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="750" fill="url(#bgTrial)" />
+
+  <!-- Header -->
+  <rect x="90" y="80" width="410" height="44" rx="22" fill="#87957a" fill-opacity="0.25" stroke="#87957a" stroke-width="1.5"/>
+  <text x="115" y="108" font-family="sans-serif" font-size="15" font-weight="bold" fill="#f7f4ec" letter-spacing="2">TRIALSENSE — KNOWLEDGE GRAPH RAG</text>
+
+  <!-- Knowledge Graph Mesh Lines -->
+  <g stroke="#87957a" stroke-opacity="0.4" stroke-width="2">
+    <line x1="600" y1="375" x2="350" y2="250" />
+    <line x1="600" y1="375" x2="850" y2="250" />
+    <line x1="600" y1="375" x2="400" y2="520" />
+    <line x1="600" y1="375" x2="800" y2="520" />
+
+    <line x1="350" y1="250" x2="200" y2="350" stroke="#c77b5a" stroke-opacity="0.6" stroke-width="3" />
+    <line x1="850" y1="250" x2="1000" y2="350" stroke="#c77b5a" stroke-opacity="0.6" stroke-width="3" />
+    <line x1="400" y1="520" x2="250" y2="580" />
+    <line x1="800" y1="520" x2="950" y2="580" />
+  </g>
+
+  <!-- Central Hub Node -->
+  <circle cx="600" cy="375" r="45" fill="#c77b5a" stroke="#ffffff" stroke-width="5" />
+  <text x="575" y="382" font-family="sans-serif" font-size="16" font-weight="bold" fill="#ffffff">NEO4J</text>
+
+  <!-- Satellite Nodes -->
+  <circle cx="350" cy="250" r="30" fill="#87957a" />
+  <text x="325" y="255" font-family="sans-serif" font-size="12" fill="#ffffff" font-weight="bold">DRUG</text>
+
+  <circle cx="850" cy="250" r="30" fill="#87957a" />
+  <text x="820" y="255" font-family="sans-serif" font-size="12" fill="#ffffff" font-weight="bold">DISEASE</text>
+
+  <circle cx="400" cy="520" r="28" fill="#e6b89c" />
+  <text x="375" y="525" font-family="sans-serif" font-size="11" fill="#191d24" font-weight="bold">GENE</text>
+
+  <circle cx="800" cy="520" r="28" fill="#e6b89c" />
+  <text x="770" y="525" font-family="sans-serif" font-size="11" fill="#191d24" font-weight="bold">TRIAL</text>
+
+  <circle cx="200" cy="350" r="20" fill="#f7f4ec" />
+  <circle cx="1000" cy="350" r="20" fill="#f7f4ec" />
+
+  <!-- Vector Embeddings Card -->
+  <rect x="780" y="100" width="280" height="90" rx="16" fill="#111419" fill-opacity="0.9" stroke="#87957a" stroke-width="1.5" />
+  <text x="805" y="135" font-family="sans-serif" font-size="12" fill="#77746d" letter-spacing="1">QDRANT VECTOR DB</text>
+  <text x="805" y="170" font-family="serif" font-size="26" font-weight="bold" fill="#87957a">15,000+ Trials</text>
+</svg>

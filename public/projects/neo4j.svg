@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgNeo" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1f1a24" />
+      <stop offset="50%" stop-color="#2d2636" />
+      <stop offset="100%" stop-color="#15111a" />
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="750" fill="url(#bgNeo)" />
+
+  <!-- Header -->
+  <rect x="90" y="80" width="390" height="44" rx="22" fill="#c77b5a" fill-opacity="0.25" stroke="#c77b5a" stroke-width="1.5"/>
+  <text x="115" y="108" font-family="sans-serif" font-size="15" font-weight="bold" fill="#f7f4ec" letter-spacing="2">SQL × NEO4J GRAPH BENCHMARK</text>
+
+  <!-- Left: SQL Table Grid -->
+  <g transform="translate(150, 220)">
+    <rect x="0" y="0" width="340" height="360" rx="16" fill="#15111a" fill-opacity="0.8" stroke="#ffffff" stroke-opacity="0.2" stroke-width="1.5"/>
+    <rect x="0" y="0" width="340" height="50" rx="16" fill="#2d2636"/>
+    <text x="30" y="32" font-family="sans-serif" font-size="15" font-weight="bold" fill="#f7f4ec">PostgreSQL (Relational JOINs)</text>
+    
+    <line x1="0" y1="110" x2="340" y2="110" stroke="#ffffff" stroke-opacity="0.1"/>
+    <line x1="0" y1="170" x2="340" y2="170" stroke="#ffffff" stroke-opacity="0.1"/>
+    <line x1="0" y1="230" x2="340" y2="230" stroke="#ffffff" stroke-opacity="0.1"/>
+    <line x1="0" y1="290" x2="340" y2="290" stroke="#ffffff" stroke-opacity="0.1"/>
+  </g>
+
+  <!-- VS Divider -->
+  <circle cx="600" cy="400" r="35" fill="#c77b5a" stroke="#ffffff" stroke-width="4"/>
+  <text x="587" y="407" font-family="sans-serif" font-size="20" font-weight="bold" fill="#ffffff">VS</text>
+
+  <!-- Right: Neo4j Graph Network -->
+  <g transform="translate(710, 220)">
+    <rect x="0" y="0" width="340" height="360" rx="16" fill="#15111a" fill-opacity="0.8" stroke="#87957a" stroke-width="1.5"/>
+    <rect x="0" y="0" width="340" height="50" rx="16" fill="#87957a" fill-opacity="0.3"/>
+    <text x="30" y="32" font-family="sans-serif" font-size="15" font-weight="bold" fill="#87957a">Neo4j (Cypher Graph Traversal)</text>
+
+    <!-- Graph Connections -->
+    <line x1="70" y1="120" x2="270" y2="120" stroke="#87957a" stroke-width="3"/>
+    <line x1="70" y1="120" x2="170" y2="280" stroke="#c77b5a" stroke-width="3"/>
+    <line x1="270" y1="120" x2="170" y2="280" stroke="#87957a" stroke-width="3"/>
+
+    <circle cx="70" cy="120" r="22" fill="#87957a"/>
+    <circle cx="270" cy="120" r="22" fill="#87957a"/>
+    <circle cx="170" cy="280" r="26" fill="#c77b5a" stroke="#ffffff" stroke-width="3"/>
+  </g>
+
+  <!-- Top Metric -->
+  <rect x="470" y="100" width="260" height="85" rx="16" fill="#15111a" fill-opacity="0.95" stroke="#c77b5a" stroke-width="1.5" />
+  <text x="495" y="132" font-family="sans-serif" font-size="12" fill="#77746d" letter-spacing="1">GRAPH LATENCY GAIN</text>
+  <text x="495" y="168" font-family="serif" font-size="30" font-weight="bold" fill="#c77b5a">10x Faster</text>
+</svg>

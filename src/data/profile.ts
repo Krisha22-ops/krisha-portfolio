@@ -31,62 +31,61 @@ export type Profile = {
 
 export const profile: Profile = {
   name: "Krisha Jariwala",
-  title: "Data Technologist & Analyst",
-  tagline: "Turning raw data into decision-ready insights & intelligent systems.",
+  title: "Data Analytics & BI Specialist",
+  tagline: "Turning complex data into decision-ready business intelligence & AI solutions.",
   shortBio:
-    "Data technologist specializing in Data Analytics, Business Intelligence, and AI/ML solutions. I craft interactive dashboards, data pipelines, and graph-based intelligence systems.",
+    "Data Analytics, Business Intelligence & AI/ML technologist. Specialized in Power BI, SQL, Microsoft Fabric, Python, and data pipeline modeling.",
   fullBio: [
-    "I'm a passionate data professional dedicated to bridging the gap between raw data and impactful business decisions.",
-    "My expertise spans SQL databases, Python data science ecosystems, Power BI dashboarding, graph analytics (Neo4j), and vector search engine integration (Qdrant).",
-    "Whether designing mutual fund analytics platforms, e-commerce supply chain intelligence dashboards, or semantic NLP tools, I focus on performance, clarity, and visual elegance."
+    "I'm Krisha Jariwala, a data technologist passionate about transforming raw data into visual narratives and intelligent decision frameworks.",
+    "My expertise spans SQL database design, Power BI dashboard development, Microsoft Fabric end-to-end analytics, Python data science pipelines, and AI/ML model integration.",
+    "I have completed certifications across Microsoft, IBM, HackerRank, and Forage (Tata & Deloitte Data Analytics simulations), demonstrating hands-on proficiency in solving real-world business challenges."
   ],
-  email: "krishajariwala@example.com", // Editable email
+  email: "krisha22015@gmail.com",
   location: "India",
-  status: "Open to Data Analytics, BI & AI/ML opportunities",
+  status: "Open to Data Analytics, Power BI & AI/ML opportunities",
   socials: [
-    { name: "GitHub", url: "https://github.com", icon: "github" },
-    { name: "LinkedIn", url: "https://linkedin.com", icon: "linkedin" },
-    { name: "Twitter/X", url: "https://x.com", icon: "twitter" },
-    { name: "Email", url: "mailto:krishajariwala@example.com", icon: "email" }
+    { name: "GitHub", url: "https://github.com/Krisha22-ops", icon: "github" },
+    { name: "LinkedIn", url: "https://www.linkedin.com/in/krisha-jariwala-43a595253/", icon: "linkedin" },
+    { name: "Email", url: "mailto:krisha22015@gmail.com", icon: "email" }
   ],
   skills: [
     {
       category: "Analytics & BI",
-      skills: ["Power BI", "SQL (PostgreSQL)", "Tableau", "DAX", "Data Modeling", "ETL Pipelines"]
+      skills: ["Power BI", "SQL", "Microsoft Fabric", "DAX", "Data Modeling", "Power Query (ETL)"]
     },
     {
       category: "Data Science & AI",
-      skills: ["Python", "Pandas & NumPy", "NLP (NLTK, Spacy)", "Machine Learning", "Qdrant Vector DB"]
+      skills: ["Python", "Pandas & NumPy", "Machine Learning", "GenAI Analytics", "NLP"]
     },
     {
-      category: "Database & Engineering",
-      skills: ["PostgreSQL", "Neo4j Graph DB", "Data Warehousing", "Git & GitHub", "REST APIs"]
+      category: "Database & Cloud",
+      skills: ["PostgreSQL", "Neo4j Graph DB", "Azure Data Integration", "Git & GitHub"]
     },
     {
-      category: "Web & Tools",
-      skills: ["Next.js", "TypeScript", "Tailwind CSS", "React", "Figma"]
+      category: "Web & Design",
+      skills: ["Next.js", "TypeScript", "Tailwind CSS", "React"]
     }
   ],
   experience: [
     {
-      role: "Data Analytics & BI Consultant",
-      company: "Independent Projects",
+      role: "Data Analytics & BI Specialist",
+      company: "Independent Projects & Industry Simulations",
       period: "2025 — Present",
-      description: "Building production-ready dashboards, relational database schemas, and AI retrieval systems.",
+      description: "Building production-grade dashboards, relational models, and GenAI-powered data analytics simulations.",
       highlights: [
+        "Completed Tata GenAI Powered Data Analytics & Deloitte Australia Data Analytics simulations on Forage.",
         "Architected FundIQ mutual fund analytics suite processing large financial datasets.",
-        "Built Olist E-Commerce end-to-end intelligence stack comparing SQL vs Neo4j graph queries.",
-        "Developed TrialSense AI knowledge graph combining semantic search with Neo4j."
+        "Built Olist E-Commerce intelligence platform comparing SQL vs Neo4j graph queries."
       ]
     },
     {
-      role: "Data Science & NLP Engineer",
-      company: "Academic & Personal Lab",
+      role: "AI & ML Technologist",
+      company: "Advanced Certifications & Academic Projects",
       period: "2024 — 2025",
-      description: "Conducted exploratory data analysis, sentiment analysis, and graph modeling.",
+      description: "Earned IBM Advanced AI/ML Certification and Microsoft Power BI & Fabric technical credentials.",
       highlights: [
-        "Analyzed Wikipedia editing patterns and editorial conflict dynamics.",
-        "Trained sentiment classification models on social media interaction datasets."
+        "Developed TrialSense clinical trial intelligence system combining graph DBs and vector retrieval.",
+        "Created Wikipedia Edit Wars analysis using statistical collision and sentiment modeling."
       ]
     }
   ]
