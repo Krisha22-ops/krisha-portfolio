@@ -42,7 +42,7 @@ export const projects: Project[] = [
     technologies: ["PostgreSQL", "Python", "Power BI", "DAX"],
     featured: true,
     image: "/projects/fundiq.svg",
-    github: "https://github.com/Krisha22-ops",
+    github: "https://github.com/Krisha22-ops/Groww",
     liveDemo: "https://powerbi.microsoft.com"
   },
   {
@@ -71,7 +71,7 @@ export const projects: Project[] = [
     technologies: ["PostgreSQL", "SQL", "Power BI", "Python", "Pandas"],
     featured: true,
     image: "/projects/olist.svg",
-    github: "https://github.com/Krisha22-ops"
+    github: "https://github.com/Krisha22-ops/E-Commerce-Intelligence-Platform"
   },
   {
     slug: "trialsense",
@@ -124,7 +124,7 @@ export const projects: Project[] = [
     technologies: ["Power BI", "Python", "Data Analysis", "XML Parser"],
     featured: false,
     image: "/projects/wikipedia.svg",
-    github: "https://github.com/Krisha22-ops"
+    github: "https://github.com/Krisha22-ops/Wikipedia-Edit-Wars-Analysis"
   },
   {
     slug: "social-media-sentiment",
@@ -176,7 +176,7 @@ export const projects: Project[] = [
     technologies: ["PostgreSQL", "Neo4j", "SQL", "Cypher", "Python"],
     featured: false,
     image: "/projects/neo4j.svg",
-    github: "https://github.com/Krisha22-ops"
+    github: "https://github.com/Krisha22-ops/grocery_sales_data_analysis"
   },
   
   {
@@ -204,7 +204,8 @@ export const projects: Project[] = [
     year: "2026",
     technologies: ["Python", "TensorFlow", "CNN", "VGG16", "OpenCV"],
     featured: true,
-    image: "/projects/mri-classification.svg"
+    image: "/projects/mri-classification.svg",
+    github: "https://github.com/Krisha22-ops/brain_mri_classification"
   },
   {
     slug: "voter-search-matching",
@@ -226,7 +227,8 @@ export const projects: Project[] = [
     year: "2026",
     technologies: ["Python", "Machine Learning", "Fuzzy Matching", "Text Similarity"],
     featured: false,
-    image: "/projects/voter-matching.svg"
+    image: "/projects/voter-matching.svg",
+    github: "https://github.com/Krisha22-ops/voter_search_matching_system"
   },
 
 ];
