@@ -177,5 +177,56 @@ export const projects: Project[] = [
     featured: false,
     image: "/projects/neo4j.svg",
     github: "https://github.com/Krisha22-ops"
-  }
+  },
+  
+  {
+    slug: "mri-tumor-classification",
+    title: "AI-Based MRI Classification Using Deep Learning",
+    shortTitle: "MRI Classification",
+    category: "AI / Machine Learning",
+    description:
+      "A deep-learning project that classifies MRI scans into four brain tumor categories using CNNs and VGG16 transfer learning.",
+    fullDescription: [
+      "Developed a deep-learning image classification model using TensorFlow and VGG16 transfer learning to classify MRI scans into four tumor categories.",
+      "Processed medical images using OpenCV and evaluated model performance on a dataset containing more than 3,000 images.",
+      "Explored transfer learning and convolutional neural networks for medical image classification."
+    ],
+    keyHighlights: [
+      "Achieved 94% classification accuracy across 3,000+ medical images.",
+      "Applied VGG16 transfer learning and CNN-based classification.",
+      "Used OpenCV for MRI image preprocessing."
+    ],
+    metrics: [
+      { label: "Classification Accuracy", value: "94%" },
+      { label: "Images Processed", value: "3,000+" },
+      { label: "Tumor Categories", value: "4" }
+    ],
+    year: "2026",
+    technologies: ["Python", "TensorFlow", "CNN", "VGG16", "OpenCV"],
+    featured: true,
+    image: "/projects/mri-classification.svg"
+  },
+  {
+    slug: "voter-search-matching",
+    title: "Voter Search & Matching System",
+    shortTitle: "Voter Matching",
+    category: "AI / Machine Learning",
+    description:
+      "A Python-based search and matching system designed to identify similar names in noisy or inconsistent voter data.",
+    fullDescription: [
+      "Developed a Python-based system to improve name matching in datasets where names may contain spelling variations or inconsistent text.",
+      "Applied text similarity and fuzzy matching techniques to identify potentially matching names.",
+      "Explored machine-learning-based matching approaches to improve search results across noisy records."
+    ],
+    keyHighlights: [
+      "Implemented fuzzy name matching for inconsistent text records.",
+      "Applied text-similarity techniques to identify similar names.",
+      "Used Python to build a data matching and search workflow."
+    ],
+    year: "2026",
+    technologies: ["Python", "Machine Learning", "Fuzzy Matching", "Text Similarity"],
+    featured: false,
+    image: "/projects/voter-matching.svg"
+  },
+
 ];
